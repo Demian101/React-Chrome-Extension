@@ -1,7 +1,6 @@
 .tmp/
 yarn.lock
 coverage/
-dist/
 npm-debug.log
 node_modules/
 jspm_packages/
