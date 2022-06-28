@@ -1,0 +1,3905 @@
+#chrome-extension-content-base-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.chrome-extension-base-class2353 [class^=ant-]::-ms-clear,
+.chrome-extension-base-class2353 [class*= ant-]::-ms-clear,
+.chrome-extension-base-class2353 [class^=ant-] input::-ms-clear,
+.chrome-extension-base-class2353 [class*= ant-] input::-ms-clear,
+.chrome-extension-base-class2353 [class^=ant-] input::-ms-reveal,
+.chrome-extension-base-class2353 [class*= ant-] input::-ms-reveal {
+  display: none;
+}
+/* stylelint-disable property-no-vendor-prefix, at-rule-no-vendor-prefix */
+.chrome-extension-base-class2353 html,
+.chrome-extension-base-class2353 body {
+  width: 100%;
+  height: 100%;
+}
+.chrome-extension-base-class2353 input::-ms-clear,
+.chrome-extension-base-class2353 input::-ms-reveal {
+  display: none;
+}
+.chrome-extension-base-class2353 *,
+.chrome-extension-base-class2353 *::before,
+.chrome-extension-base-class2353 *::after {
+  box-sizing: border-box;
+}
+.chrome-extension-base-class2353 html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@-ms-viewport {
+  width: device-width;
+}
+.chrome-extension-base-class2353 body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: 'tnum';
+}
+.chrome-extension-base-class2353 [tabindex='-1']:focus {
+  outline: none !important;
+}
+.chrome-extension-base-class2353 hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.chrome-extension-base-class2353 h1,
+.chrome-extension-base-class2353 h2,
+.chrome-extension-base-class2353 h3,
+.chrome-extension-base-class2353 h4,
+.chrome-extension-base-class2353 h5,
+.chrome-extension-base-class2353 h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+.chrome-extension-base-class2353 p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.chrome-extension-base-class2353 abbr[title],
+.chrome-extension-base-class2353 abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  border-bottom: 0;
+  cursor: help;
+}
+.chrome-extension-base-class2353 address {
+  margin-bottom: 1em;
+  font-style: normal;
+  line-height: inherit;
+}
+.chrome-extension-base-class2353 input[type='text'],
+.chrome-extension-base-class2353 input[type='password'],
+.chrome-extension-base-class2353 input[type='number'],
+.chrome-extension-base-class2353 textarea {
+  -webkit-appearance: none;
+}
+.chrome-extension-base-class2353 ol,
+.chrome-extension-base-class2353 ul,
+.chrome-extension-base-class2353 dl {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.chrome-extension-base-class2353 ol ol,
+.chrome-extension-base-class2353 ul ul,
+.chrome-extension-base-class2353 ol ul,
+.chrome-extension-base-class2353 ul ol {
+  margin-bottom: 0;
+}
+.chrome-extension-base-class2353 dt {
+  font-weight: 500;
+}
+.chrome-extension-base-class2353 dd {
+  margin-bottom: 0.5em;
+  margin-left: 0;
+}
+.chrome-extension-base-class2353 blockquote {
+  margin: 0 0 1em;
+}
+.chrome-extension-base-class2353 dfn {
+  font-style: italic;
+}
+.chrome-extension-base-class2353 b,
+.chrome-extension-base-class2353 strong {
+  font-weight: bolder;
+}
+.chrome-extension-base-class2353 small {
+  font-size: 80%;
+}
+.chrome-extension-base-class2353 sub,
+.chrome-extension-base-class2353 sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+.chrome-extension-base-class2353 sub {
+  bottom: -0.25em;
+}
+.chrome-extension-base-class2353 sup {
+  top: -0.5em;
+}
+.chrome-extension-base-class2353 a {
+  color: #1DA57A;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+}
+.chrome-extension-base-class2353 a:hover {
+  color: #3db389;
+}
+.chrome-extension-base-class2353 a:active {
+  color: #118060;
+}
+.chrome-extension-base-class2353 a:active,
+.chrome-extension-base-class2353 a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+.chrome-extension-base-class2353 a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+.chrome-extension-base-class2353 a[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+.chrome-extension-base-class2353 pre,
+.chrome-extension-base-class2353 code,
+.chrome-extension-base-class2353 kbd,
+.chrome-extension-base-class2353 samp {
+  font-size: 1em;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+.chrome-extension-base-class2353 pre {
+  margin-top: 0;
+  margin-bottom: 1em;
+  overflow: auto;
+}
+.chrome-extension-base-class2353 figure {
+  margin: 0 0 1em;
+}
+.chrome-extension-base-class2353 img {
+  vertical-align: middle;
+  border-style: none;
+}
+.chrome-extension-base-class2353 a,
+.chrome-extension-base-class2353 area,
+.chrome-extension-base-class2353 button,
+.chrome-extension-base-class2353 [role='button'],
+.chrome-extension-base-class2353 input:not([type='range']),
+.chrome-extension-base-class2353 label,
+.chrome-extension-base-class2353 select,
+.chrome-extension-base-class2353 summary,
+.chrome-extension-base-class2353 textarea {
+  touch-action: manipulation;
+}
+.chrome-extension-base-class2353 table {
+  border-collapse: collapse;
+}
+.chrome-extension-base-class2353 caption {
+  padding-top: 0.75em;
+  padding-bottom: 0.3em;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: left;
+  caption-side: bottom;
+}
+.chrome-extension-base-class2353 input,
+.chrome-extension-base-class2353 button,
+.chrome-extension-base-class2353 select,
+.chrome-extension-base-class2353 optgroup,
+.chrome-extension-base-class2353 textarea {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+.chrome-extension-base-class2353 button,
+.chrome-extension-base-class2353 input {
+  overflow: visible;
+}
+.chrome-extension-base-class2353 button,
+.chrome-extension-base-class2353 select {
+  text-transform: none;
+}
+.chrome-extension-base-class2353 button,
+.chrome-extension-base-class2353 html [type="button"],
+.chrome-extension-base-class2353 [type="reset"],
+.chrome-extension-base-class2353 [type="submit"] {
+  -webkit-appearance: button;
+}
+.chrome-extension-base-class2353 button::-moz-focus-inner,
+.chrome-extension-base-class2353 [type='button']::-moz-focus-inner,
+.chrome-extension-base-class2353 [type='reset']::-moz-focus-inner,
+.chrome-extension-base-class2353 [type='submit']::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+.chrome-extension-base-class2353 input[type='radio'],
+.chrome-extension-base-class2353 input[type='checkbox'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.chrome-extension-base-class2353 input[type='date'],
+.chrome-extension-base-class2353 input[type='time'],
+.chrome-extension-base-class2353 input[type='datetime-local'],
+.chrome-extension-base-class2353 input[type='month'] {
+  -webkit-appearance: listbox;
+}
+.chrome-extension-base-class2353 textarea {
+  overflow: auto;
+  resize: vertical;
+}
+.chrome-extension-base-class2353 fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.chrome-extension-base-class2353 legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  padding: 0;
+  color: inherit;
+  font-size: 1.5em;
+  line-height: inherit;
+  white-space: normal;
+}
+.chrome-extension-base-class2353 progress {
+  vertical-align: baseline;
+}
+.chrome-extension-base-class2353 [type='number']::-webkit-inner-spin-button,
+.chrome-extension-base-class2353 [type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+.chrome-extension-base-class2353 [type='search'] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+.chrome-extension-base-class2353 [type='search']::-webkit-search-cancel-button,
+.chrome-extension-base-class2353 [type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.chrome-extension-base-class2353 ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+.chrome-extension-base-class2353 output {
+  display: inline-block;
+}
+.chrome-extension-base-class2353 summary {
+  display: list-item;
+}
+.chrome-extension-base-class2353 template {
+  display: none;
+}
+.chrome-extension-base-class2353 [hidden] {
+  display: none !important;
+}
+.chrome-extension-base-class2353 mark {
+  padding: 0.2em;
+  background-color: #feffe6;
+}
+.chrome-extension-base-class2353 ::-moz-selection {
+  color: #fff;
+  background: #1DA57A;
+}
+.chrome-extension-base-class2353 ::selection {
+  color: #fff;
+  background: #1DA57A;
+}
+.chrome-extension-base-class2353 .clearfix::before {
+  display: table;
+  content: '';
+}
+.chrome-extension-base-class2353 .clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.chrome-extension-base-class2353 .anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.chrome-extension-base-class2353 .anticon > * {
+  line-height: 1;
+}
+.chrome-extension-base-class2353 .anticon svg {
+  display: inline-block;
+}
+.chrome-extension-base-class2353 .anticon::before {
+  display: none;
+}
+.chrome-extension-base-class2353 .anticon .anticon-icon {
+  display: block;
+}
+.chrome-extension-base-class2353 .anticon > .anticon {
+  line-height: 0;
+  vertical-align: 0;
+}
+.chrome-extension-base-class2353 .anticon[tabindex] {
+  cursor: pointer;
+}
+.chrome-extension-base-class2353 .anticon-spin::before {
+  display: inline-block;
+  -webkit-animation: loadingCircle 1s infinite linear;
+          animation: loadingCircle 1s infinite linear;
+}
+.chrome-extension-base-class2353 .anticon-spin {
+  display: inline-block;
+  -webkit-animation: loadingCircle 1s infinite linear;
+          animation: loadingCircle 1s infinite linear;
+}
+.chrome-extension-base-class2353 .ant-fade-enter,
+.chrome-extension-base-class2353 .ant-fade-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-fade-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-fade-enter.ant-fade-enter-active,
+.chrome-extension-base-class2353 .ant-fade-appear.ant-fade-appear-active {
+  -webkit-animation-name: antFadeIn;
+          animation-name: antFadeIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-fade-leave.ant-fade-leave-active {
+  -webkit-animation-name: antFadeOut;
+          animation-name: antFadeOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-fade-enter,
+.chrome-extension-base-class2353 .ant-fade-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.chrome-extension-base-class2353 .ant-fade-leave {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes antFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes antFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes antFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.chrome-extension-base-class2353 .ant-move-up-enter,
+.chrome-extension-base-class2353 .ant-move-up-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-up-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-up-enter.ant-move-up-enter-active,
+.chrome-extension-base-class2353 .ant-move-up-appear.ant-move-up-appear-active {
+  -webkit-animation-name: antMoveUpIn;
+          animation-name: antMoveUpIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-move-up-leave.ant-move-up-leave-active {
+  -webkit-animation-name: antMoveUpOut;
+          animation-name: antMoveUpOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-move-up-enter,
+.chrome-extension-base-class2353 .ant-move-up-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-move-up-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+          animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+}
+.chrome-extension-base-class2353 .ant-move-down-enter,
+.chrome-extension-base-class2353 .ant-move-down-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-down-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-down-enter.ant-move-down-enter-active,
+.chrome-extension-base-class2353 .ant-move-down-appear.ant-move-down-appear-active {
+  -webkit-animation-name: antMoveDownIn;
+          animation-name: antMoveDownIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-move-down-leave.ant-move-down-leave-active {
+  -webkit-animation-name: antMoveDownOut;
+          animation-name: antMoveDownOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-move-down-enter,
+.chrome-extension-base-class2353 .ant-move-down-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-move-down-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+          animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+}
+.chrome-extension-base-class2353 .ant-move-left-enter,
+.chrome-extension-base-class2353 .ant-move-left-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-left-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-left-enter.ant-move-left-enter-active,
+.chrome-extension-base-class2353 .ant-move-left-appear.ant-move-left-appear-active {
+  -webkit-animation-name: antMoveLeftIn;
+          animation-name: antMoveLeftIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-move-left-leave.ant-move-left-leave-active {
+  -webkit-animation-name: antMoveLeftOut;
+          animation-name: antMoveLeftOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-move-left-enter,
+.chrome-extension-base-class2353 .ant-move-left-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-move-left-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+          animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+}
+.chrome-extension-base-class2353 .ant-move-right-enter,
+.chrome-extension-base-class2353 .ant-move-right-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-right-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-move-right-enter.ant-move-right-enter-active,
+.chrome-extension-base-class2353 .ant-move-right-appear.ant-move-right-appear-active {
+  -webkit-animation-name: antMoveRightIn;
+          animation-name: antMoveRightIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-move-right-leave.ant-move-right-leave-active {
+  -webkit-animation-name: antMoveRightOut;
+          animation-name: antMoveRightOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-move-right-enter,
+.chrome-extension-base-class2353 .ant-move-right-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-move-right-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+          animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+}
+@-webkit-keyframes antMoveDownIn {
+  0% {
+    transform: translateY(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@keyframes antMoveDownIn {
+  0% {
+    transform: translateY(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antMoveDownOut {
+  0% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@keyframes antMoveDownOut {
+  0% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antMoveLeftIn {
+  0% {
+    transform: translateX(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@keyframes antMoveLeftIn {
+  0% {
+    transform: translateX(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antMoveLeftOut {
+  0% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@keyframes antMoveLeftOut {
+  0% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antMoveRightIn {
+  0% {
+    transform: translateX(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@keyframes antMoveRightIn {
+  0% {
+    transform: translateX(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antMoveRightOut {
+  0% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@keyframes antMoveRightOut {
+  0% {
+    transform: translateX(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antMoveUpIn {
+  0% {
+    transform: translateY(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@keyframes antMoveUpIn {
+  0% {
+    transform: translateY(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antMoveUpOut {
+  0% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@keyframes antMoveUpOut {
+  0% {
+    transform: translateY(0%);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    transform-origin: 0 0;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes loadingCircle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loadingCircle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.chrome-extension-base-class2353 [ant-click-animating='true'],
+.chrome-extension-base-class2353 [ant-click-animating-without-extra-node='true'] {
+  position: relative;
+}
+.chrome-extension-base-class2353 html {
+  --antd-wave-shadow-color: #1DA57A;
+  --scroll-bar: 0;
+}
+.chrome-extension-base-class2353 [ant-click-animating-without-extra-node='true']::after,
+.chrome-extension-base-class2353 .ant-click-animating-node {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 #1DA57A;
+  box-shadow: 0 0 0 0 var(--antd-wave-shadow-color);
+  opacity: 0.2;
+  -webkit-animation: fadeEffect 2s cubic-bezier(0.08, 0.82, 0.17, 1), waveEffect 0.4s cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation: fadeEffect 2s cubic-bezier(0.08, 0.82, 0.17, 1), waveEffect 0.4s cubic-bezier(0.08, 0.82, 0.17, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  content: '';
+  pointer-events: none;
+}
+@-webkit-keyframes waveEffect {
+  100% {
+    box-shadow: 0 0 0 #1DA57A;
+    box-shadow: 0 0 0 6px var(--antd-wave-shadow-color);
+  }
+}
+@keyframes waveEffect {
+  100% {
+    box-shadow: 0 0 0 #1DA57A;
+    box-shadow: 0 0 0 6px var(--antd-wave-shadow-color);
+  }
+}
+@-webkit-keyframes fadeEffect {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeEffect {
+  100% {
+    opacity: 0;
+  }
+}
+.chrome-extension-base-class2353 .ant-slide-up-enter,
+.chrome-extension-base-class2353 .ant-slide-up-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-up-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-up-enter.ant-slide-up-enter-active,
+.chrome-extension-base-class2353 .ant-slide-up-appear.ant-slide-up-appear-active {
+  -webkit-animation-name: antSlideUpIn;
+          animation-name: antSlideUpIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-slide-up-leave.ant-slide-up-leave-active {
+  -webkit-animation-name: antSlideUpOut;
+          animation-name: antSlideUpOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-slide-up-enter,
+.chrome-extension-base-class2353 .ant-slide-up-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-slide-up-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+.chrome-extension-base-class2353 .ant-slide-down-enter,
+.chrome-extension-base-class2353 .ant-slide-down-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-down-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-down-enter.ant-slide-down-enter-active,
+.chrome-extension-base-class2353 .ant-slide-down-appear.ant-slide-down-appear-active {
+  -webkit-animation-name: antSlideDownIn;
+          animation-name: antSlideDownIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-slide-down-leave.ant-slide-down-leave-active {
+  -webkit-animation-name: antSlideDownOut;
+          animation-name: antSlideDownOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-slide-down-enter,
+.chrome-extension-base-class2353 .ant-slide-down-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-slide-down-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+.chrome-extension-base-class2353 .ant-slide-left-enter,
+.chrome-extension-base-class2353 .ant-slide-left-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-left-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-left-enter.ant-slide-left-enter-active,
+.chrome-extension-base-class2353 .ant-slide-left-appear.ant-slide-left-appear-active {
+  -webkit-animation-name: antSlideLeftIn;
+          animation-name: antSlideLeftIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-slide-left-leave.ant-slide-left-leave-active {
+  -webkit-animation-name: antSlideLeftOut;
+          animation-name: antSlideLeftOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-slide-left-enter,
+.chrome-extension-base-class2353 .ant-slide-left-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-slide-left-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+.chrome-extension-base-class2353 .ant-slide-right-enter,
+.chrome-extension-base-class2353 .ant-slide-right-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-right-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-slide-right-enter.ant-slide-right-enter-active,
+.chrome-extension-base-class2353 .ant-slide-right-appear.ant-slide-right-appear-active {
+  -webkit-animation-name: antSlideRightIn;
+          animation-name: antSlideRightIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-slide-right-leave.ant-slide-right-leave-active {
+  -webkit-animation-name: antSlideRightOut;
+          animation-name: antSlideRightOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-slide-right-enter,
+.chrome-extension-base-class2353 .ant-slide-right-appear {
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-slide-right-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+@-webkit-keyframes antSlideUpIn {
+  0% {
+    transform: scaleY(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes antSlideUpIn {
+  0% {
+    transform: scaleY(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antSlideUpOut {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+}
+@keyframes antSlideUpOut {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antSlideDownIn {
+  0% {
+    transform: scaleY(0.8);
+    transform-origin: 100% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+@keyframes antSlideDownIn {
+  0% {
+    transform: scaleY(0.8);
+    transform-origin: 100% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antSlideDownOut {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0.8);
+    transform-origin: 100% 100%;
+    opacity: 0;
+  }
+}
+@keyframes antSlideDownOut {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0.8);
+    transform-origin: 100% 100%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antSlideLeftIn {
+  0% {
+    transform: scaleX(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes antSlideLeftIn {
+  0% {
+    transform: scaleX(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antSlideLeftOut {
+  0% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+}
+@keyframes antSlideLeftOut {
+  0% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0.8);
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antSlideRightIn {
+  0% {
+    transform: scaleX(0.8);
+    transform-origin: 100% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+@keyframes antSlideRightIn {
+  0% {
+    transform: scaleX(0.8);
+    transform-origin: 100% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antSlideRightOut {
+  0% {
+    transform: scaleX(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0.8);
+    transform-origin: 100% 0%;
+    opacity: 0;
+  }
+}
+@keyframes antSlideRightOut {
+  0% {
+    transform: scaleX(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0.8);
+    transform-origin: 100% 0%;
+    opacity: 0;
+  }
+}
+.chrome-extension-base-class2353 .ant-zoom-enter,
+.chrome-extension-base-class2353 .ant-zoom-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-enter.ant-zoom-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-appear.ant-zoom-appear-active {
+  -webkit-animation-name: antZoomIn;
+          animation-name: antZoomIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-leave.ant-zoom-leave-active {
+  -webkit-animation-name: antZoomOut;
+          animation-name: antZoomOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-enter,
+.chrome-extension-base-class2353 .ant-zoom-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-big-enter,
+.chrome-extension-base-class2353 .ant-zoom-big-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-enter.ant-zoom-big-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-big-appear.ant-zoom-big-appear-active {
+  -webkit-animation-name: antZoomBigIn;
+          animation-name: antZoomBigIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-leave.ant-zoom-big-leave-active {
+  -webkit-animation-name: antZoomBigOut;
+          animation-name: antZoomBigOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-enter,
+.chrome-extension-base-class2353 .ant-zoom-big-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-big-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-big-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-enter,
+.chrome-extension-base-class2353 .ant-zoom-big-fast-appear {
+  -webkit-animation-duration: 0.1s;
+          animation-duration: 0.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-leave {
+  -webkit-animation-duration: 0.1s;
+          animation-duration: 0.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active {
+  -webkit-animation-name: antZoomBigIn;
+          animation-name: antZoomBigIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-leave.ant-zoom-big-fast-leave-active {
+  -webkit-animation-name: antZoomBigOut;
+          animation-name: antZoomBigOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-enter,
+.chrome-extension-base-class2353 .ant-zoom-big-fast-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-big-fast-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-big-fast-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-up-enter,
+.chrome-extension-base-class2353 .ant-zoom-up-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-up-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-up-enter.ant-zoom-up-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-up-appear.ant-zoom-up-appear-active {
+  -webkit-animation-name: antZoomUpIn;
+          animation-name: antZoomUpIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-up-leave.ant-zoom-up-leave-active {
+  -webkit-animation-name: antZoomUpOut;
+          animation-name: antZoomUpOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-up-enter,
+.chrome-extension-base-class2353 .ant-zoom-up-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-up-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-up-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-up-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-down-enter,
+.chrome-extension-base-class2353 .ant-zoom-down-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-down-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-down-enter.ant-zoom-down-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-down-appear.ant-zoom-down-appear-active {
+  -webkit-animation-name: antZoomDownIn;
+          animation-name: antZoomDownIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-down-leave.ant-zoom-down-leave-active {
+  -webkit-animation-name: antZoomDownOut;
+          animation-name: antZoomDownOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-down-enter,
+.chrome-extension-base-class2353 .ant-zoom-down-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-down-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-down-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-down-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-left-enter,
+.chrome-extension-base-class2353 .ant-zoom-left-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-left-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-left-enter.ant-zoom-left-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-left-appear.ant-zoom-left-appear-active {
+  -webkit-animation-name: antZoomLeftIn;
+          animation-name: antZoomLeftIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-left-leave.ant-zoom-left-leave-active {
+  -webkit-animation-name: antZoomLeftOut;
+          animation-name: antZoomLeftOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-left-enter,
+.chrome-extension-base-class2353 .ant-zoom-left-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-left-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-left-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-left-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+.chrome-extension-base-class2353 .ant-zoom-right-enter,
+.chrome-extension-base-class2353 .ant-zoom-right-appear {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-right-leave {
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.chrome-extension-base-class2353 .ant-zoom-right-enter.ant-zoom-right-enter-active,
+.chrome-extension-base-class2353 .ant-zoom-right-appear.ant-zoom-right-appear-active {
+  -webkit-animation-name: antZoomRightIn;
+          animation-name: antZoomRightIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.chrome-extension-base-class2353 .ant-zoom-right-leave.ant-zoom-right-leave-active {
+  -webkit-animation-name: antZoomRightOut;
+          animation-name: antZoomRightOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-right-enter,
+.chrome-extension-base-class2353 .ant-zoom-right-appear {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+          animation-timing-function: cubic-bezier(0.08, 0.82, 0.17, 1);
+}
+.chrome-extension-base-class2353 .ant-zoom-right-enter-prepare,
+.chrome-extension-base-class2353 .ant-zoom-right-appear-prepare {
+  transform: none;
+}
+.chrome-extension-base-class2353 .ant-zoom-right-leave {
+  -webkit-animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+}
+@-webkit-keyframes antZoomIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes antZoomIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antZoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
+@keyframes antZoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antZoomBigIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes antZoomBigIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes antZoomBigOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+@keyframes antZoomBigOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antZoomUpIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 50% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+}
+@keyframes antZoomUpIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 50% 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+}
+@-webkit-keyframes antZoomUpOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 50% 0%;
+    opacity: 0;
+  }
+}
+@keyframes antZoomUpOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 50% 0%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antZoomLeftIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 0% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 0% 50%;
+  }
+}
+@keyframes antZoomLeftIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 0% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 0% 50%;
+  }
+}
+@-webkit-keyframes antZoomLeftOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 0% 50%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 0% 50%;
+    opacity: 0;
+  }
+}
+@keyframes antZoomLeftOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 0% 50%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 0% 50%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antZoomRightIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 100% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 100% 50%;
+  }
+}
+@keyframes antZoomRightIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 100% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 100% 50%;
+  }
+}
+@-webkit-keyframes antZoomRightOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 100% 50%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 100% 50%;
+    opacity: 0;
+  }
+}
+@keyframes antZoomRightOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 100% 50%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 100% 50%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes antZoomDownIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+}
+@keyframes antZoomDownIn {
+  0% {
+    transform: scale(0.8);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+}
+@-webkit-keyframes antZoomDownOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+}
+@keyframes antZoomDownOut {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(0.8);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+}
+.chrome-extension-base-class2353 .ant-motion-collapse-legacy {
+  overflow: hidden;
+}
+.chrome-extension-base-class2353 .ant-motion-collapse-legacy-active {
+  transition: height 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+.chrome-extension-base-class2353 .ant-motion-collapse {
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.chrome-extension-base-class2353 .ant-drawer {
+  position: fixed;
+  z-index: 1000;
+  width: 0%;
+  height: 100%;
+  transition: width 0s ease 0.3s, height 0s ease 0.3s;
+}
+.chrome-extension-base-class2353 .ant-drawer-content-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-drawer .ant-drawer-content {
+  width: 100%;
+  height: 100%;
+}
+.chrome-extension-base-class2353 .ant-drawer-left,
+.chrome-extension-base-class2353 .ant-drawer-right {
+  top: 0;
+  width: 0%;
+  height: 100%;
+}
+.chrome-extension-base-class2353 .ant-drawer-left .ant-drawer-content-wrapper,
+.chrome-extension-base-class2353 .ant-drawer-right .ant-drawer-content-wrapper {
+  height: 100%;
+}
+.chrome-extension-base-class2353 .ant-drawer-left.ant-drawer-open,
+.chrome-extension-base-class2353 .ant-drawer-right.ant-drawer-open {
+  width: 100%;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-drawer-left {
+  left: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-left .ant-drawer-content-wrapper {
+  left: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-left.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow: 6px 0 16px -8px rgba(0, 0, 0, 0.08), 9px 0 28px 0 rgba(0, 0, 0, 0.05), 12px 0 48px 16px rgba(0, 0, 0, 0.03);
+}
+.chrome-extension-base-class2353 .ant-drawer-right {
+  right: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-right .ant-drawer-content-wrapper {
+  right: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow: -6px 0 16px -8px rgba(0, 0, 0, 0.08), -9px 0 28px 0 rgba(0, 0, 0, 0.05), -12px 0 48px 16px rgba(0, 0, 0, 0.03);
+}
+.chrome-extension-base-class2353 .ant-drawer-right.ant-drawer-open.no-mask {
+  right: 1px;
+  transform: translateX(1px);
+}
+.chrome-extension-base-class2353 .ant-drawer-top,
+.chrome-extension-base-class2353 .ant-drawer-bottom {
+  left: 0;
+  width: 100%;
+  height: 0%;
+}
+.chrome-extension-base-class2353 .ant-drawer-top .ant-drawer-content-wrapper,
+.chrome-extension-base-class2353 .ant-drawer-bottom .ant-drawer-content-wrapper {
+  width: 100%;
+}
+.chrome-extension-base-class2353 .ant-drawer-top.ant-drawer-open,
+.chrome-extension-base-class2353 .ant-drawer-bottom.ant-drawer-open {
+  height: 100%;
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.chrome-extension-base-class2353 .ant-drawer-top {
+  top: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-top.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.08), 0 9px 28px 0 rgba(0, 0, 0, 0.05), 0 12px 48px 16px rgba(0, 0, 0, 0.03);
+}
+.chrome-extension-base-class2353 .ant-drawer-bottom {
+  bottom: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-bottom .ant-drawer-content-wrapper {
+  bottom: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-bottom.ant-drawer-open .ant-drawer-content-wrapper {
+  box-shadow: 0 -6px 16px -8px rgba(0, 0, 0, 0.08), 0 -9px 28px 0 rgba(0, 0, 0, 0.05), 0 -12px 48px 16px rgba(0, 0, 0, 0.03);
+}
+.chrome-extension-base-class2353 .ant-drawer-bottom.ant-drawer-open.no-mask {
+  bottom: 1px;
+  transform: translateY(1px);
+}
+.chrome-extension-base-class2353 .ant-drawer.ant-drawer-open .ant-drawer-mask {
+  height: 100%;
+  opacity: 1;
+  transition: none;
+  -webkit-animation: antdDrawerFadeIn 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+          animation: antdDrawerFadeIn 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  pointer-events: auto;
+}
+.chrome-extension-base-class2353 .ant-drawer-title {
+  flex: 1;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.chrome-extension-base-class2353 .ant-drawer-content {
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-close {
+  display: inline-block;
+  margin-right: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-rendering: auto;
+}
+.chrome-extension-base-class2353 .ant-drawer-close:focus,
+.chrome-extension-base-class2353 .ant-drawer-close:hover {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+}
+.chrome-extension-base-class2353 .ant-drawer-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 2px 2px 0 0;
+}
+.chrome-extension-base-class2353 .ant-drawer-header-title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.chrome-extension-base-class2353 .ant-drawer-header-close-only {
+  padding-bottom: 0;
+  border: none;
+}
+.chrome-extension-base-class2353 .ant-drawer-wrapper-body {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+}
+.chrome-extension-base-class2353 .ant-drawer-body {
+  flex-grow: 1;
+  padding: 24px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+.chrome-extension-base-class2353 .ant-drawer-footer {
+  flex-shrink: 0;
+  padding: 10px 16px;
+  border-top: 1px solid #f0f0f0;
+}
+.chrome-extension-base-class2353 .ant-drawer-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity 0.3s linear, height 0s ease 0.3s;
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-drawer .ant-picker-clear {
+  background: #fff;
+}
+@-webkit-keyframes antdDrawerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes antdDrawerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.chrome-extension-base-class2353 .ant-drawer-rtl {
+  direction: rtl;
+}
+.chrome-extension-base-class2353 .ant-drawer-rtl .ant-drawer-close {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.chrome-extension-base-class2353 .ant-btn {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn > .anticon {
+  line-height: 1;
+}
+.chrome-extension-base-class2353 .ant-btn,
+.chrome-extension-base-class2353 .ant-btn:active,
+.chrome-extension-base-class2353 .ant-btn:focus {
+  outline: 0;
+}
+.chrome-extension-base-class2353 .ant-btn:not([disabled]):hover {
+  text-decoration: none;
+}
+.chrome-extension-base-class2353 .ant-btn:not([disabled]):active {
+  outline: 0;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn[disabled] {
+  cursor: not-allowed;
+}
+.chrome-extension-base-class2353 .ant-btn[disabled] > * {
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-btn-lg {
+  height: 40px;
+  padding: 6.4px 15px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-sm {
+  height: 24px;
+  padding: 0px 7px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn:hover,
+.chrome-extension-base-class2353 .ant-btn:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn:active {
+  color: #118060;
+  border-color: #118060;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn[disabled],
+.chrome-extension-base-class2353 .ant-btn[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn:hover,
+.chrome-extension-base-class2353 .ant-btn:focus,
+.chrome-extension-base-class2353 .ant-btn:active {
+  text-decoration: none;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn > span {
+  display: inline-block;
+}
+.chrome-extension-base-class2353 .ant-btn-primary {
+  color: #fff;
+  border-color: #1DA57A;
+  background: #1DA57A;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.chrome-extension-base-class2353 .ant-btn-primary > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-primary > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-primary:hover,
+.chrome-extension-base-class2353 .ant-btn-primary:focus {
+  color: #fff;
+  border-color: #3db389;
+  background: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-primary:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-primary:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-primary:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-primary:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-primary:active {
+  color: #fff;
+  border-color: #118060;
+  background: #118060;
+}
+.chrome-extension-base-class2353 .ant-btn-primary:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-primary:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-primary[disabled],
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-primary[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-primary[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-primary[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child) {
+  border-right-color: #3db389;
+  border-left-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child):disabled {
+  border-color: #d9d9d9;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:first-child:not(:last-child) {
+  border-right-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:first-child:not(:last-child)[disabled] {
+  border-right-color: #d9d9d9;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary + .ant-btn-primary {
+  border-left-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary:last-child:not(:first-child)[disabled],
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary + .ant-btn-primary[disabled] {
+  border-left-color: #d9d9d9;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost {
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:hover,
+.chrome-extension-base-class2353 .ant-btn-ghost:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-ghost:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-ghost:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:active {
+  color: #118060;
+  border-color: #118060;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled],
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-ghost[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dashed {
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff;
+  border-style: dashed;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:hover,
+.chrome-extension-base-class2353 .ant-btn-dashed:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dashed:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dashed:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:active {
+  color: #118060;
+  border-color: #118060;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled],
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dashed[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-danger {
+  color: #fff;
+  border-color: #ff4d4f;
+  background: #ff4d4f;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.chrome-extension-base-class2353 .ant-btn-danger > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-danger > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-danger:hover,
+.chrome-extension-base-class2353 .ant-btn-danger:focus {
+  color: #fff;
+  border-color: #ff7875;
+  background: #ff7875;
+}
+.chrome-extension-base-class2353 .ant-btn-danger:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-danger:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-danger:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-danger:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-danger:active {
+  color: #fff;
+  border-color: #d9363e;
+  background: #d9363e;
+}
+.chrome-extension-base-class2353 .ant-btn-danger:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-danger:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-danger[disabled],
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-danger[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-danger[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-danger[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-link {
+  color: #1DA57A;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-link > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-link > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-link:hover,
+.chrome-extension-base-class2353 .ant-btn-link:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-link:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-link:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-link:active {
+  color: #118060;
+  border-color: #118060;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-link:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-link:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled],
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-link:hover {
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-link:hover,
+.chrome-extension-base-class2353 .ant-btn-link:focus,
+.chrome-extension-base-class2353 .ant-btn-link:active {
+  border-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled],
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-link[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-link[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-text {
+  color: rgba(0, 0, 0, 0.85);
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-text > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-text > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-text:hover,
+.chrome-extension-base-class2353 .ant-btn-text:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-text:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-text:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-text:active {
+  color: #118060;
+  border-color: #118060;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-text:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-text:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled],
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-text:hover,
+.chrome-extension-base-class2353 .ant-btn-text:focus {
+  color: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.018);
+  border-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-text:active {
+  color: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.028);
+  border-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled],
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-text[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-text[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous {
+  color: #ff4d4f;
+  border-color: #ff4d4f;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous:focus {
+  color: #ff7875;
+  border-color: #ff7875;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:active {
+  color: #d9363e;
+  border-color: #d9363e;
+  background: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary {
+  color: #fff;
+  border-color: #ff4d4f;
+  background: #ff4d4f;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:focus {
+  color: #fff;
+  border-color: #ff7875;
+  background: #ff7875;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:active {
+  color: #fff;
+  border-color: #d9363e;
+  background: #d9363e;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-primary[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link {
+  color: #ff4d4f;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active {
+  color: #118060;
+  border-color: #118060;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus {
+  color: #ff7875;
+  border-color: transparent;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active {
+  color: #d9363e;
+  border-color: transparent;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text {
+  color: #ff4d4f;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus {
+  color: #3db389;
+  border-color: #3db389;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active {
+  color: #118060;
+  border-color: #118060;
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus {
+  color: #ff7875;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.018);
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active {
+  color: #d9363e;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.028);
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled],
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-dangerous.ant-btn-text[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only {
+  width: 32px;
+  height: 32px;
+  padding: 2.4px 0;
+  font-size: 16px;
+  border-radius: 2px;
+  vertical-align: -3px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only > * {
+  font-size: 16px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only.ant-btn-lg {
+  width: 40px;
+  height: 40px;
+  padding: 4.9px 0;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only.ant-btn-lg > * {
+  font-size: 18px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only.ant-btn-sm {
+  width: 24px;
+  height: 24px;
+  padding: 0px 0;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only.ant-btn-sm > * {
+  font-size: 14px;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only > .anticon {
+  display: flex;
+  justify-content: center;
+}
+.chrome-extension-base-class2353 .ant-btn-icon-only .anticon-loading {
+  padding: 0 !important;
+}
+.chrome-extension-base-class2353 a.ant-btn-icon-only {
+  vertical-align: -1px;
+}
+.chrome-extension-base-class2353 a.ant-btn-icon-only > .anticon {
+  display: inline;
+}
+.chrome-extension-base-class2353 .ant-btn-round {
+  height: 32px;
+  padding: 4px 16px;
+  font-size: 14px;
+  border-radius: 32px;
+}
+.chrome-extension-base-class2353 .ant-btn-round.ant-btn-lg {
+  height: 40px;
+  padding: 6.4px 20px;
+  font-size: 16px;
+  border-radius: 40px;
+}
+.chrome-extension-base-class2353 .ant-btn-round.ant-btn-sm {
+  height: 24px;
+  padding: 0px 12px;
+  font-size: 14px;
+  border-radius: 24px;
+}
+.chrome-extension-base-class2353 .ant-btn-round.ant-btn-icon-only {
+  width: auto;
+}
+.chrome-extension-base-class2353 .ant-btn-circle {
+  min-width: 32px;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  border-radius: 50%;
+}
+.chrome-extension-base-class2353 .ant-btn-circle.ant-btn-lg {
+  min-width: 40px;
+  border-radius: 50%;
+}
+.chrome-extension-base-class2353 .ant-btn-circle.ant-btn-sm {
+  min-width: 24px;
+  border-radius: 50%;
+}
+.chrome-extension-base-class2353 .ant-btn::before {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  z-index: 1;
+  display: none;
+  background: #fff;
+  border-radius: inherit;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+  content: '';
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 .ant-btn .anticon {
+  transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.chrome-extension-base-class2353 .ant-btn .anticon.anticon-plus > svg,
+.chrome-extension-base-class2353 .ant-btn .anticon.anticon-minus > svg {
+  shape-rendering: optimizespeed;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-loading {
+  position: relative;
+  cursor: default;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-loading::before {
+  display: block;
+}
+.chrome-extension-base-class2353 .ant-btn > .ant-btn-loading-icon {
+  transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.chrome-extension-base-class2353 .ant-btn > .ant-btn-loading-icon .anticon {
+  padding-right: 8px;
+  -webkit-animation: none;
+          animation: none;
+}
+.chrome-extension-base-class2353 .ant-btn > .ant-btn-loading-icon .anticon svg {
+  -webkit-animation: loadingCircle 1s infinite linear;
+          animation: loadingCircle 1s infinite linear;
+}
+.chrome-extension-base-class2353 .ant-btn-group {
+  position: relative;
+  display: inline-flex;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group > span > .ant-btn {
+  position: relative;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:hover,
+.chrome-extension-base-class2353 .ant-btn-group > span > .ant-btn:hover,
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:focus,
+.chrome-extension-base-class2353 .ant-btn-group > span > .ant-btn:focus,
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:active,
+.chrome-extension-base-class2353 .ant-btn-group > span > .ant-btn:active {
+  z-index: 2;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn[disabled],
+.chrome-extension-base-class2353 .ant-btn-group > span > .ant-btn[disabled] {
+  z-index: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-icon-only {
+  font-size: 14px;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn + .ant-btn-group,
+.chrome-extension-base-class2353 .ant-btn-group span + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn + span,
+.chrome-extension-base-class2353 .ant-btn-group > span + span,
+.chrome-extension-base-class2353 .ant-btn-group + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group + .ant-btn-group {
+  margin-left: -1px;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn-primary + .ant-btn:not(.ant-btn-primary):not([disabled]) {
+  border-left-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-group .ant-btn {
+  border-radius: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:first-child,
+.chrome-extension-base-class2353 .ant-btn-group > span:first-child > .ant-btn {
+  margin-left: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:only-child {
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group > span:only-child > .ant-btn {
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:first-child:not(:last-child),
+.chrome-extension-base-class2353 .ant-btn-group > span:first-child:not(:last-child) > .ant-btn {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group > span:last-child:not(:first-child) > .ant-btn {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group-sm > .ant-btn:only-child {
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group-sm > span:only-child > .ant-btn {
+  border-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group-sm > .ant-btn:first-child:not(:last-child),
+.chrome-extension-base-class2353 .ant-btn-group-sm > span:first-child:not(:last-child) > .ant-btn {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group-sm > .ant-btn:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group-sm > span:last-child:not(:first-child) > .ant-btn {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn-group {
+  float: left;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn-group:not(:first-child):not(:last-child) > .ant-btn {
+  border-radius: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn-group:first-child:not(:last-child) > .ant-btn:last-child {
+  padding-right: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group > .ant-btn-group:last-child:not(:first-child) > .ant-btn:first-child {
+  padding-left: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group .ant-btn + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn + .ant-btn-group,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group span + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group .ant-btn + span,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group > span + span,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn-group + .ant-btn-group,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn + .ant-btn-group,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group span + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn + span,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group > span + span,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group + .ant-btn,
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group + .ant-btn-group {
+  margin-right: -1px;
+  margin-left: auto;
+}
+.chrome-extension-base-class2353 .ant-btn-group.ant-btn-group-rtl {
+  direction: rtl;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group > .ant-btn:first-child:not(:last-child),
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group > span:first-child:not(:last-child) > .ant-btn {
+  border-radius: 0 2px 2px 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group > .ant-btn:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group > span:last-child:not(:first-child) > .ant-btn {
+  border-radius: 2px 0 0 2px;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group-sm > .ant-btn:first-child:not(:last-child),
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group-sm > span:first-child:not(:last-child) > .ant-btn {
+  border-radius: 0 2px 2px 0;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group-sm > .ant-btn:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group-sm > span:last-child:not(:first-child) > .ant-btn {
+  border-radius: 2px 0 0 2px;
+}
+.chrome-extension-base-class2353 .ant-btn:focus > span,
+.chrome-extension-base-class2353 .ant-btn:active > span {
+  position: relative;
+}
+.chrome-extension-base-class2353 .ant-btn > .anticon + span,
+.chrome-extension-base-class2353 .ant-btn > span + .anticon {
+  margin-left: 8px;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost {
+  color: #fff;
+  border-color: #fff;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost,
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:hover,
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:active,
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:focus {
+  background: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:hover,
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:focus {
+  color: #3db389;
+  border-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost:active {
+  color: #118060;
+  border-color: #118060;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-background-ghost[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  background: transparent;
+  border-color: #d9d9d9;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary {
+  color: #1DA57A;
+  border-color: #1DA57A;
+  text-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:focus {
+  color: #3db389;
+  border-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:active {
+  color: #118060;
+  border-color: #118060;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled],
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-primary[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger {
+  color: #ff4d4f;
+  border-color: #ff4d4f;
+  text-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:focus {
+  color: #ff7875;
+  border-color: #ff7875;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:active {
+  color: #d9363e;
+  border-color: #d9363e;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled],
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-danger[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous {
+  color: #ff4d4f;
+  border-color: #ff4d4f;
+  text-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:focus {
+  color: #ff7875;
+  border-color: #ff7875;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:active {
+  color: #d9363e;
+  border-color: #d9363e;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled],
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link {
+  color: #ff4d4f;
+  border-color: transparent;
+  text-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:focus {
+  color: #ff7875;
+  border-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:focus > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:focus > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:active {
+  color: #d9363e;
+  border-color: transparent;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled],
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:hover,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:focus,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  background: #f5f5f5;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled] > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled] > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:hover > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:focus > a:only-child::after,
+.chrome-extension-base-class2353 .ant-btn-background-ghost.ant-btn-dangerous.ant-btn-link[disabled]:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 .ant-btn-two-chinese-chars::first-letter {
+  letter-spacing: 0.34em;
+}
+.chrome-extension-base-class2353 .ant-btn-two-chinese-chars > *:not(.anticon) {
+  margin-right: -0.34em;
+  letter-spacing: 0.34em;
+}
+.chrome-extension-base-class2353 .ant-btn.ant-btn-block {
+  width: 100%;
+}
+.chrome-extension-base-class2353 .ant-btn:empty {
+  display: inline-block;
+  width: 0;
+  visibility: hidden;
+  content: '\a0';
+}
+.chrome-extension-base-class2353 a.ant-btn {
+  padding-top: 0.01px !important;
+  line-height: 30px;
+}
+.chrome-extension-base-class2353 a.ant-btn-disabled {
+  cursor: not-allowed;
+}
+.chrome-extension-base-class2353 a.ant-btn-disabled > * {
+  pointer-events: none;
+}
+.chrome-extension-base-class2353 a.ant-btn-disabled,
+.chrome-extension-base-class2353 a.ant-btn-disabled:hover,
+.chrome-extension-base-class2353 a.ant-btn-disabled:focus,
+.chrome-extension-base-class2353 a.ant-btn-disabled:active {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: transparent;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+.chrome-extension-base-class2353 a.ant-btn-disabled > a:only-child,
+.chrome-extension-base-class2353 a.ant-btn-disabled:hover > a:only-child,
+.chrome-extension-base-class2353 a.ant-btn-disabled:focus > a:only-child,
+.chrome-extension-base-class2353 a.ant-btn-disabled:active > a:only-child {
+  color: currentcolor;
+}
+.chrome-extension-base-class2353 a.ant-btn-disabled > a:only-child::after,
+.chrome-extension-base-class2353 a.ant-btn-disabled:hover > a:only-child::after,
+.chrome-extension-base-class2353 a.ant-btn-disabled:focus > a:only-child::after,
+.chrome-extension-base-class2353 a.ant-btn-disabled:active > a:only-child::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: '';
+}
+.chrome-extension-base-class2353 a.ant-btn-lg {
+  line-height: 38px;
+}
+.chrome-extension-base-class2353 a.ant-btn-sm {
+  line-height: 22px;
+}
+.chrome-extension-base-class2353 .ant-btn-rtl {
+  direction: rtl;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn-primary:last-child:not(:first-child),
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn-primary + .ant-btn-primary {
+  border-right-color: #3db389;
+  border-left-color: #d9d9d9;
+}
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn-primary:last-child:not(:first-child)[disabled],
+.chrome-extension-base-class2353 .ant-btn-group-rtl.ant-btn-group .ant-btn-primary + .ant-btn-primary[disabled] {
+  border-right-color: #d9d9d9;
+  border-left-color: #3db389;
+}
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn > .ant-btn-loading-icon .anticon {
+  padding-right: 0;
+  padding-left: 8px;
+}
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn > .anticon + span,
+.chrome-extension-base-class2353 .ant-btn-rtl.ant-btn > span + .anticon {
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+
+
+/*# sourceMappingURL=contentScripts.css.map*/

@@ -10,5 +10,4 @@ temp/
 wrap-ansi/
 .vscode/
 .iml
-dist/*
 
